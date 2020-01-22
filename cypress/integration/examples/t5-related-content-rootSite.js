@@ -1,4 +1,4 @@
-describe('Checks related posts from other subsite', function () {
+describe('Checks related posts from Root site', function () {
     it('Checks related posts from other subsite', function () {
         cy.viewport('macbook-15')
         cy.visit('https://hpu-multistage.bfmdev1.com/test-modules/related-content-t5005a-root-site/')
